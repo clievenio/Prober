@@ -12,7 +12,7 @@
 #  http://127.0.0.1:9313/metrics
 #  http://127.0.0.1:9313/status
 
-FROM golang:1.18.3 as builder
+FROM golang:1.19.0 as builder
 
 ENV GO111MODULE=on
 
