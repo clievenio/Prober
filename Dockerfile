@@ -16,7 +16,7 @@ FROM golang:1.21.0 as builder
 
 ENV GO111MODULE=on
 
-ARG CLOUD_PROBER_VERSION=v0.11.2
+ARG CLOUD_PROBER_VERSION=v0.12.8
 
 RUN mkdir -p $GOPATH/src/github.com/google
 
