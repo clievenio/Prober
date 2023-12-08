@@ -33,7 +33,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o cloudprober -ldflags "-X main.version=$
 
 RUN ./cloudprober -version
 
-FROM alpine:3.18.4
+FROM alpine:3.19.0
 
 RUN mkdir -p /app/bin
 
